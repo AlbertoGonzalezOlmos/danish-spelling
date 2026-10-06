@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3 Colors -->
+    <color name="md_theme_primary">#6750A4</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_secondary">#625B71</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_background">#FFFBFE</color>
+    <color name="md_theme_onBackground">#1C1B1F</color>
+    <color name="md_theme_surface">#FFFBFE</color>
+    <color name="md_theme_onSurface">#1C1B1F</color>
+
+    <!-- Practice Mode Colors (Bright and Engaging) -->
+    <color name="child_primary">#4CAF50</color>
+    <color name="child_secondary">#2196F3</color>
+    <color name="child_accent">#FF9800</color>
+    <color name="child_success">#8BC34A</color>
+    <color name="child_warning">#FFC107</color>
+    <color name="child_background">#F5F5F5</color>
+
+    <!-- Feedback Colors -->
+    <color name="correct_green">#4CAF50</color>
+    <color name="almost_yellow">#FFC107</color>
+    <color name="try_again_blue">#2196F3</color>
+
+    <!-- Star Colors -->
+    <color name="star_gold">#FFD700</color>
+    <color name="star_silver">#C0C0C0</color>
+    <color name="star_gray">#BDBDBD</color>
+
+    <!-- List Theme Colors -->
+    <color name="theme_animals">#4CAF50</color>
+    <color name="theme_family">#2196F3</color>
+    <color name="theme_school">#FF9800</color>
+    <color name="theme_colors">#9C27B0</color>
+    <color name="theme_numbers">#F44336</color>
+</resources>

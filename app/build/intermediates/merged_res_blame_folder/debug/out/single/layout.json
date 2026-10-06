@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/item_list_selection.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/item_list_selection.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/fragment_practice.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/fragment_practice.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/fragment_list_selection.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/fragment_list_selection.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/fragment_sentence_management.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/fragment_sentence_management.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/fragment_reward.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/fragment_reward.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/activity_main.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/fragment_list_management.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/fragment_list_management.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/dialog_add_list.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/dialog_add_list.xml"
+    },
+    {
+        "merged": "com.example.danishspelling.app-mergeDebugResources-61:/layout/dialog_edit_text.xml",
+        "source": "com.example.danishspelling.app-main-64:/layout/dialog_edit_text.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/dialog_edit_text.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/dialog_edit_text.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/item_sentence.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/item_sentence.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/dialog_edit_image.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/dialog_edit_image.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/item_list_management.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/item_list_management.xml"
+    },
+    {
+        "merged": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-mergeDebugResources-61:/layout/fragment_mode_selection.xml",
+        "source": "/Users/albert.gonzalezolmos/.gradle/daemon/8.2/com.example.danishspelling.app-main-64:/layout/fragment_mode_selection.xml"
+    }
+]

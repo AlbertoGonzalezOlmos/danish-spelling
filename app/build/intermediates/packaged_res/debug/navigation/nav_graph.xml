@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/modeSelectionFragment">
+
+    <fragment
+        android:id="@+id/modeSelectionFragment"
+        android:name="com.example.danishspelling.presentation.ModeSelectionFragment"
+        android:label="Danish Spelling"
+        tools:layout="@layout/fragment_mode_selection">
+        <action
+            android:id="@+id/action_to_child_mode"
+            app:destination="@id/listSelectionFragment" />
+        <action
+            android:id="@+id/action_to_parent_mode"
+            app:destination="@id/listManagementFragment" />
+    </fragment>
+
+    <!-- Child Mode Navigation -->
+    <fragment
+        android:id="@+id/listSelectionFragment"
+        android:name="com.example.danishspelling.presentation.child.ListSelectionFragment"
+        android:label="Choose a List"
+        tools:layout="@layout/fragment_list_selection">
+        <action
+            android:id="@+id/action_to_practice"
+            app:destination="@id/practiceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.example.danishspelling.presentation.child.PracticeFragment"
+        android:label="Practice"
+        tools:layout="@layout/fragment_practice">
+        <argument
+            android:name="listId"
+            app:argType="long" />
+        <argument
+            android:name="randomOrder"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="incorrectOnly"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_to_reward"
+            app:destination="@id/rewardFragment"
+            app:popUpTo="@id/listSelectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/rewardFragment"
+        android:name="com.example.danishspelling.presentation.child.RewardFragment"
+        android:label="Great Job!"
+        tools:layout="@layout/fragment_reward">
+        <argument
+            android:name="totalStars"
+            app:argType="integer" />
+        <argument
+            android:name="accuracy"
+            app:argType="float" />
+    </fragment>
+
+    <!-- Parent Mode Navigation -->
+    <fragment
+        android:id="@+id/listManagementFragment"
+        android:name="com.example.danishspelling.presentation.parent.ListManagementFragment"
+        android:label="Manage Lists"
+        tools:layout="@layout/fragment_list_management">
+        <action
+            android:id="@+id/action_to_sentences"
+            app:destination="@id/sentenceManagementFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sentenceManagementFragment"
+        android:name="com.example.danishspelling.presentation.parent.SentenceManagementFragment"
+        android:label="Manage Sentences"
+        tools:layout="@layout/fragment_sentence_management">
+        <argument
+            android:name="listId"
+            app:argType="long" />
+    </fragment>
+
+</navigation>

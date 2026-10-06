@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Danish Spelling</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+
+    <!-- Settings Mode -->
+    <string name="parent_mode">Settings</string>
+    <string name="child_mode">Practice</string>
+    <string name="practice_lists">Practice Lists</string>
+    <string name="add_list">Add List</string>
+    <string name="list_name">List Name</string>
+    <string name="list_description">Description</string>
+    <string name="sentences">Sentences</string>
+    <string name="add_sentence">Add Sentence</string>
+    <string name="sentence_text">Sentence</string>
+    <string name="statistics">Statistics</string>
+
+    <!-- Practice Mode -->
+    <string name="listen">Listen</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="type_what_you_heard">Type what you heard:</string>
+    <string name="progress_format">%1$d / %2$d</string>
+    <string name="total_stars">Total: %1$d ⭐</string>
+
+    <!-- Encouragement Messages -->
+    <string name="encouragement_perfect">Perfekt! 🌟</string>
+    <string name="encouragement_fantastic">Fantastisk!</string>
+    <string name="encouragement_great">Rigtig godt!</string>
+    <string name="encouragement_good_try">Godt forsøg!</string>
+    <string name="encouragement_almost">Næsten!</string>
+    <string name="encouragement_try_again">Prøv igen!</string>
+    <string name="encouragement_keep_going">Forsæt!</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="child_name">Child\'s Name</string>
+    <string name="speech_speed">Speech Speed</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="animations">Animations</string>
+
+    <!-- OCR Feature -->
+    <string name="add_from_photo">Add from Photo</string>
+    <string name="ocr_instructions_title">How to Add Sentences from a Photo</string>
+    <string name="ocr_instructions_message">Choose one of the following options:\n\n• Take Photo - Use camera to capture text\n• Choose from Gallery - Select an existing photo\n\nTips:\n• Make sure the text is clear and well-lit\n• Each line of text will become a separate sentence\n• Review and edit the sentences after import</string>
+    <string name="ocr_processing">Processing image...</string>
+    <string name="ocr_success">Added %d sentence(s) from photo</string>
+    <string name="ocr_no_text">No text found in the image</string>
+    <string name="camera_permission_required">Camera permission is required to take photos</string>
+
+    <!-- Errors -->
+    <string name="error_tts_not_available">Danish text-to-speech is not available. Please install Danish language support.</string>
+    <string name="error_no_sentences">No sentences in this list yet. Add some sentences first!</string>
+    <string name="error_empty_sentence">Sentence cannot be empty</string>
+</resources>

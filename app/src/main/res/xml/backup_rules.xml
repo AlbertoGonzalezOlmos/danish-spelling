@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="spelling_database"/>
+    <include domain="sharedpref" path="spelling_prefs"/>
+</full-backup-content>
